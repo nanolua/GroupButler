@@ -3,10 +3,10 @@ return {
 	cmd = '^[/!#]',
 	allowed_updates = {"message", "edited_message", "callback_query"},
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 278941742},
+	superadmins = {315017219, 317576202},
 	log = {
-		chat = -1001089188566, --Your log chat, where your bot must be added!
-		admin = 23646077, --The admin.
+		chat = -1001081849919, --Your log chat, where your bot must be added!
+		admin = 317576202, --The admin.
 		stats = nil
 	},
 	human_readable_version = '4.2.0',
@@ -28,7 +28,7 @@ return {
 		realm_max_members = 60,
 		realm_max_subgroups = 6
 	},
-	channel = '@groupbutler_beta', --channel username with the '@'
+	channel = '@cs_team', --channel username with the '@'
 	source_code = 'https://github.com/RememberTheAir/GroupButler/tree/beta',
 	help_groups_link = 'telegram.me/GBgroups',
 	plugins = {
